@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "ESPProj",
+			"path": "../../../PlatformIO/Projects/ESPProj"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp"
+		},
+		"liveServer.settings.multiRootWorkspaceName": "Vectors"
+	}
+}
