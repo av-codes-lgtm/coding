@@ -32,7 +32,7 @@ int main(){
     }
 
     // Vector Functions:-
-    // 1.size - returns size of the vector : 
+    // 1.size - returns size(no. of elements) of the vector : 
     cout << "size = " << vec.size() << endl;
     
     // 2.push_back - adds an element at the end of the vector and increases its size by 1 :
@@ -57,5 +57,11 @@ int main(){
     // 6.at - another syntax for accesing a value in the vector
     cout << vec2.at(0) << endl;
 
+    //STATIC vs DYNAMIC
+    //Static=Stack....
+    //Dynamic=Heap....
+    //vec.size() = number of elements present in the array.
+    //vec.capacity() = number of elements that can be stored in the array.
+    //vec.push_back() creates another array of double the size.
     return 0;
 }
