@@ -22,7 +22,7 @@ while not over:
     game_over = False
     while not game_over:
         if int(pnum1) == int(wnum1):
-            print(f"CONGRATS! YOU WIN! YOU GUESSED THE NUMBER IN {guess} TIMES!")
+            print(f"CONGRATS! YOU WIN! YOU GUESSED THE NUMBER IN {guess} GUESSES!")
             game_over = True
         else:
             if int(pnum1) < int(wnum1):
@@ -58,7 +58,7 @@ while not over:
     game_over = False
     while not game_over:
         if int(pnum1) == int(wnum1):
-            print(f"CONGRATS! YOU WIN! YOU GUESSED THE NUMBER IN {guess} TIMES!")
+            print(f"CONGRATS! YOU WIN! YOU GUESSED THE NUMBER IN {guess} GUESSES!")
             game_over = True
         else:
             if int(pnum1) < int(wnum1):
@@ -94,7 +94,7 @@ while not over:
     game_over = False
     while not game_over:
         if int(pnum1) == int(wnum1):
-            print(f"CONGRATS! YOU WIN! YOU GUESSED THE NUMBER IN {guess} TIMES!")
+            print(f"CONGRATS! YOU WIN! YOU GUESSED THE NUMBER IN {guess} GUESSES!")
             game_over = True
         else:
             if int(pnum1) < int(wnum1):
